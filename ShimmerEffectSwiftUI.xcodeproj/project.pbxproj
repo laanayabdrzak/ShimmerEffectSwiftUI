@@ -11,6 +11,7 @@
 		1925D7CB2B93C4E800F14788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D7CA2B93C4E800F14788 /* ContentView.swift */; };
 		1925D7CD2B93C4EC00F14788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D7CC2B93C4EC00F14788 /* Assets.xcassets */; };
 		1925D7D12B93C4EC00F14788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D7D02B93C4EC00F14788 /* Preview Assets.xcassets */; };
+		1925D7D82B93C51900F14788 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D7D72B93C51900F14788 /* ShimmerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1925D7CC2B93C4EC00F14788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1925D7CE2B93C4EC00F14788 /* ShimmerEffectSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShimmerEffectSwiftUI.entitlements; sourceTree = "<group>"; };
 		1925D7D02B93C4EC00F14788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1925D7D72B93C51900F14788 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1925D7C82B93C4E800F14788 /* ShimmerEffectSwiftUIApp.swift */,
 				1925D7CA2B93C4E800F14788 /* ContentView.swift */,
+				1925D7D72B93C51900F14788 /* ShimmerView.swift */,
 				1925D7CC2B93C4EC00F14788 /* Assets.xcassets */,
 				1925D7CE2B93C4EC00F14788 /* ShimmerEffectSwiftUI.entitlements */,
 				1925D7CF2B93C4EC00F14788 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1925D7D82B93C51900F14788 /* ShimmerView.swift in Sources */,
 				1925D7CB2B93C4E800F14788 /* ContentView.swift in Sources */,
 				1925D7C92B93C4E800F14788 /* ShimmerEffectSwiftUIApp.swift in Sources */,
 			);
